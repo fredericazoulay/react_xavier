@@ -1,0 +1,32 @@
+{
+  "name": "client_react",
+  "version": "1.0.0",
+  "description": "mkdir react-demo cd react-demo npm init",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react-scripts": "^2.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-confirm-alert": "^2.0.6",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "react-toastify": "^4.4.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
