@@ -14,11 +14,11 @@ const Header = () => {
                 <nav class="header__nav">
                     <ul class="header__list">
                         
-                            <li class="header__list-item" data-url="story/">
+                            <li className="header__list-item" data-url="story/">
                                 <a target="_self" href="/story/">Our Story</a>
                             </li>
                         
-                            <li class="header__list-item" data-url="expertise/">
+                            <li className="header__list-item" data-url="expertise/">
                                 <a target="_self" href="/expertise/">Expertise</a>
                             </li>
                         

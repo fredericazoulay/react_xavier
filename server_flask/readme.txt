@@ -8,3 +8,6 @@ python app.py
 
 curl -i -H “Accept: application/json” -H “Content-Type: application/json” -X GET http://localhost:5000/api/v1.0/etudiant
 curl -X POST  -H "Accept: Application/json" -H "Content-Type: application/json" http://localhost:5000/api/v1.0/etudiant -d '{"matricule":"1234","nom":"test", "prenom": "test"}'
+
+cd "C:\Program Files (x86)\Google\Chrome\Application"
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security

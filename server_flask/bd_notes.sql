@@ -27,6 +27,23 @@ USE `bd_notes`;
 
 -- --------------------------------------------------------
 
+-- drop table t_user
+
+CREATE TABLE t_user (
+id_user INTEGER NOT NULL, 
+public_id VARCHAR(50), 
+name VARCHAR(50), 
+password VARCHAR(80), 
+admin BOOLEAN,
+CHECK (admin IN (0, 1)),
+PRIMARY KEY (id_user), 
+UNIQUE (public_id)
+);
+
+INSERT INTO `t_user` (`id_user`, `public_id`, `name`, `password`, `admin`) VALUES
+(1, '100', 'root', 'root', 1),
+(2, '200', 'admin', 'admin', 0);
+
 --
 -- Structure de la table `t_etudiant`
 --

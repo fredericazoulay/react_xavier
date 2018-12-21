@@ -9,3 +9,6 @@ sudo npm install bootstrap --save
 sudo npm install react-confirm-alert --save
 npm start
 allumer serveur flask : python app.py
+
+cd "C:\Program Files (x86)\Google\Chrome\Application"
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
